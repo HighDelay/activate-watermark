@@ -15,8 +15,8 @@ struct WatermarkSettings {
     std::wstring line2 = L"Go to Settings to activate Windows.";
     float fontSize1    = 22.0f;
     float fontSize2    = 17.0f;
-    int   margin       = 20;
-    int   marginBottom = 55;
+    int   margin       = 40;
+    int   marginBottom = 80;
     float lineSpacing  = 2.0f;
     BYTE  alpha        = 130;
     int   position     = 0;
