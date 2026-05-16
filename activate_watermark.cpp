@@ -195,7 +195,7 @@ static void AddTrayIcon(HWND hwnd) {
     g_nid.uID = 1;
     g_nid.uFlags = NIF_ICON | NIF_MESSAGE | NIF_TIP;
     g_nid.uCallbackMessage = WM_TRAYICON;
-    g_nid.hIcon = LoadIconW(NULL, IDI_INFORMATION);
+    g_nid.hIcon = LoadIconW(NULL, MAKEINTRESOURCEW(IDI_INFORMATION));
     wcscpy_s(g_nid.szTip, L"Activate Windows Watermark");
     Shell_NotifyIconW(NIM_ADD, &g_nid);
 }
